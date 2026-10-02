@@ -13,7 +13,7 @@ Results
 
 Cars generated from pure noise with guidance_scale=7.5:
 
-![Generated Cars](assets\gensample_vae128-unet256_car.png)
+![Generated Cars](assets/gensample_vae128-unet256_car.png)
 
 #### Architecture
 
