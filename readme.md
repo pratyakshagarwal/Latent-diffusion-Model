@@ -32,16 +32,16 @@ Self-attention at bottleneck
 Training
 bash
 ###### 1. Train VAE
-`python vae/train.py`
+`python src/vae_train.py`
 
 ###### 2. Extract latents
-`python ldm/extract_latents.py`
+`python src/emcode_data.py`
 
 ###### 3. Train DDPM
-`python ddpm/train.py`
+`python src/unet_train.py`
 
 ###### 4. Sample
-`python ldm/sample.py --class_label 1 --guidance_scale 7.5`
+`python src/sample.py --class-label 8 --guidance-scale 7.5 --num-samples 8 --output samples/ships.png`
 
 #### Papers
 Auto-Encoding Variational Bayes — Kingma & Welling
